@@ -1,0 +1,225 @@
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jahe"
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/panahkayumanis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/kyu" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:text="Kayu Manis"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:fontFamily="serif"
+                android:text="Cinnamomum burmannii "
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/khasiat" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mencret, kendalikan gula darah"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/cara"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. Mencret "
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="kayu manis 3 gram ketumbar 3 gram  jintan hitam 2 gram kencur 2 gram " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="di tumbuk hingga menjadi pasta  " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="ditempelkan diseluruh bagian perut dan pakailah gurita " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2. Kendalikan Gula Darah "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="kayu manis 3 gram ketumbar 3 gram  jintan hitam 2 gram kencur 2 gram " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Rendam sepotong kayu manis 2 inci atau kulit kayu manis dalam segelas air. Biarkan semalaman " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="minum di pagi hari dengan perut kosong. " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3. Kendalikan Gula Darah "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="1 batang kayu manis, air panas,  teh kantong, madu secukupnya " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Siapkan cangkir dan tempatkan 1 batang kayu manis dalam cangkir, Tuangkan air panas ke dalam gelas, biarkan selama 10 menit. Ada baiknya, jika Anda menutup gelas tersebut,
+Kemudian, masukkan teh kantong ke dalam gelas selama 1 atau 2 menit. Lalu, angkat teh kantong dari gelas, Tambahkan madu secukupnya" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="Minum secara teratur. " />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

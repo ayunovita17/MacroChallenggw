@@ -1,0 +1,265 @@
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".delima"
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/panahdelima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/dl" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="100dp"
+                android:text="Kayu Manis"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:fontFamily="serif"
+                android:text="Punica granatum  "
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/khasiat" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Sariawan, Radang Gusi,Mencegah keriput, Menghilangkan jerawat dan kulit kemerahan"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"
+                android:background="@drawable/cara" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.Sariawan "
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="2 buah delima, dan 1 gelas air" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Ambil 2 buah delima yang sudah masak, ambil isi dan biji nya kemudian tumbuk sampai halus. Tambahkan 1 gelas air sambil diaduk rata lalu saring " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Gunakan airnya untuk berkumur, lakukan 2-3 kali sehari  " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Radang Gusi. "
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Bunga delima 7 kuntum, air bersih" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Rebus bunga dengan segelas air bersih sampai mendidih" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Tunggu hingga dingin lalu disaring dan gunakan untuk kumur- kumur  " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4.Menghilangkan jerawat dan kulit kemerahan. "
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="ambil bubuk kulit delima, air mawar atau sari lemon,." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="bubuk kulit delima, campur dengan air mawar atau sari lemon." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Oleskan pada wajah dan biarkan hingga kering. Setelah itu, basuh muka dengan air hangat. Lakukan dua kali dalam seminggu.  " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3.Mencegah keriput. "
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="ambil 2 sendok makan bubuk kulit delima, tambahkan susu, aduk hingga menjadi pasta." />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Oleskan pada wajah dan biarkan hingga kering. Setelah itu, basuh muka dengan air hangat." />
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

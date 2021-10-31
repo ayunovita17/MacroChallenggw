@@ -1,0 +1,262 @@
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jahe"
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/panahapel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                app:srcCompat="@drawable/apl" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:text="Apel"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:fontFamily="serif"
+                android:text="Malus domestica  "
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/khasiat" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"
+                android:text="Kencing manis (diabetes mellitus), Diare, Menurunkan Kolestrol Jahat" />
+
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/cara" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1. Kencing manis (diabetes mellitus ) "
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="1 biji buah apel berukuran sedang" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="325dp"
+                android:layout_height="58dp"
+                android:textColor="@color/black"
+                android:text="Buah apel dibelah menjadi 4 bagian dan direbus dengan air 3-4 gelas sampai mendidih hingga tinggal 2 gelas " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="match_parent"
+                android:text="Diminum pagi - sore, dan dilakukan secara rutin.  " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Diare "
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="buah apel yang belum begitu masak" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Dimakan biasa "
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3.Mengatasi Sakit Sendi
+ "
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="2 apel hijau dipotong kecil dan 5 batang sera" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Rebus semua bahan hingga tertutup oleh air, rebus dengan api kecil samapi apel menjadi lunak" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Setelah lunak, minum campuran apel hijau dan serai tersebut tanpa tambahan apapun. "
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="4.Menurunkan Kolestrol Jahat"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="2 buah apel hijau, cuci bersih, jangan dikupas kulitnya 1/2 buah lemon, 1 ikat kecil bayam, Es batu secukupnya" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Potong kecil-kecil apel hijau dan iris bayam hingga bisa diolah di blender. Masukkan bayam, apel dan batu es ke dalam blender lalu nyalakan. Pastikan seluruh bahan halus dan tercampur merata.Setelah halus dan tercampur rata, tuang ke dalam gelas. Lalu, peras jeruk lemon di atas jus dan aduk." />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Minum secara teratur "
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

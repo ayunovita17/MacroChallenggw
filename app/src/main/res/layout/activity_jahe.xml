@@ -1,0 +1,227 @@
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jahe"
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/panahjahe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/expjahe" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="100dp"
+                android:text="Jahe"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:fontFamily="serif"
+                android:text="Zingiber offcinale Rosc "
+                android:textSize="18sp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/khasiat" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Batuk, Sesak napas, dan masuk angin"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="100dp"
+                android:background="@drawable/cara"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.Batuk "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Jahe 2 rimpang, gula merah sedikit" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Membuat "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Jahe diparut, peras ambil airnya saja, kemudian iris gula merah dan rebus sampai gula merah larut " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:textColor="@color/black"
+                android:layout_marginTop="3dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Diminum sehari 2 kali, pagi dan sore " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="2.Selesma "
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Jahe merah 1 rimpang, herba poko 1 genggam, buah kemukus 6 butir, biji jintan hitam 2 butir, air sedikit " />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Pindakan ke kain bersih dan ikat dengan tali, kemuadian masukkan ke dalam cukahangat dan oleskan ke seluruh badan, untuk mempercepat keluarnya keringat " />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="3.Obat masuk angin "
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="100dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Bahan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Siapkan bahan-bahan berupa 400 ml air, 100 gram jahe, 1 ruas jari kayu manis, 1 batang serai, dan 3 sendok makan gula jawa (sisir)."/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Menggunakan "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Didihkan air, masukkan jahe, serai, kayu manis,Ambil batang serai dan geprek,Siapkan kayu manis Didihkan air, masukkan jahe, serai, kayu manis,Masak dengan api kecil, masukkan gula jawa. " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="1.Obat masuk angin "
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="100dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="100dp"
+                android:text="Cara Mengelolah "
+                android:layout_marginTop="3dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:text="Siapkan 1 liter air, 2 sdm gula merah, sisir kasar, 2 ruas jahe merah yang telah digeprek atau dimemarkan, 2 batang serai yang telah dimemarkan, dan 2 lembar daun pandang yang diikat simpul, 1 genggam kacang tanah sangrai yang telah dibuang kulitnya 50 gram kacang hijau rebus, 1 lembar roti tawar gandum yang dipotong dadu, kolang-kaling yang telah direbus, serta sejumput garam.
+Tambahkan toping seperti kacang tanah sangrai, kolang-kaling, dan roti tawar" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
